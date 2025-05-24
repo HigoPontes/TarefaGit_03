@@ -16,6 +16,7 @@ git stash
 git checkout PrimeraRemote/main
 git checkout main
 git stash apply stash@{0}
+git stash PrimeiraRemote V1
 git push PrimeraRemote main
 git reflog
 git tag -a V1 ca4ae93 -m "Versão estavél"
